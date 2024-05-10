@@ -99,4 +99,7 @@ function checkMatch() {
   }
   cardsChosen = [];
   cardsChosenIds = [];
+  if(score == 6){
+    result.innerText = 'Congrats you found them all!'
+  }
 }
